@@ -20,6 +20,9 @@ If you are having trouble running GrALoG, ensure that you are running the correc
 If you are on Linux and are struggling to run GrALoG, try running
 `java -jar gralog-fx.jar`
 
+
+All alterations to pre-existing GrALoG files are annotated with the phrase "MAXFLOW".
+
 ## Build
 -----
 Files MaxFlow.java, MaxFlowFunctions.java and plugin.xml are all pre-organised and contained within
