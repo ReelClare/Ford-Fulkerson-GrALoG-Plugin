@@ -8,6 +8,11 @@ Please refer to the "Build" section below for instructions on how to introduce
 these files to your GrALoG workspace.
 
 For those new to GrALoG, a precompiled "gralog-fx.jar" file is available for download.
+To install, download the "build" folder, and place it into the root of the GrALoG directory; 
+gralog-master\
+
+Navigate then to the gralog-fx.jar file in gralog-master\build\dist\
+
 This can be run by double clicking it after downloading.
 
 PLEASE NOTE:
@@ -23,26 +28,27 @@ If you are on Linux and are struggling to run GrALoG, try running
 
 All alterations to pre-existing GrALoG files are annotated with the phrase "MAXFLOW".
 
-## Build
+
+## Your Build
 -----
 Files MaxFlow.java, MaxFlowFunctions.java and plugin.xml are all pre-organised and contained within
 the folder labelled gralog-max-flow. 
 This folder, in addition to the settings.gradle and build.gradle files, are to be inserted into the
 root of the GrALoG directory: 
-Gralog\
+gralog-master\
 
 
 config.xml should replace the previous GrALoG file, located 
-Gralog\gralog-fx\src\main\java\gralog\gralogfx\
+gralog-master\gralog-fx\src\main\java\gralog\gralogfx\
 
 
 EdgeRenderer.java should overwrite the previous GrALoG file, located 
-Gralog\gralog-core\src\main\java\gralog\rendering\
+gralog-master\gralog-core\src\main\java\gralog\rendering\
 
 
 MainWindow.java should overwrite its previous version, located 
-Gralog\gralog-fx\src\main\java\gralog\gralogfx\
+gralog-master\gralog-fx\src\main\java\gralog\gralogfx\
 
 MaxFlowLegendPanel.java should be introduced into the same location wherein PluginControlPanel.java should overwrite its previous version, at
-Gralog\gralog-fx\src\main\java\gralog\gralogfx\panels\
+gralog-master\gralog-fx\src\main\java\gralog\gralogfx\panels\
 
