@@ -1,5 +1,9 @@
 ## Ford-Fulkerson-GrALoG-Plugin
 -----
+The GrALoG software is available for dowload <a href="https://github.com/gralog/gralog" target="_blank">HERE</a>, and should be downloaded and
+extracted prior to following any instructions in this README.
+
+Plugin Installation and Usage Guide pdf contains some helpful information regarding this plugin.
 
 For those who already use GrALoG and have a number of your own plugins installed, 
 the individual files relevant to this plugin are available in the above 
