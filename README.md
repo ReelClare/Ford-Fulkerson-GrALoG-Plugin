@@ -1,58 +1,45 @@
 ## Ford-Fulkerson-GrALoG-Plugin
------
-The GrALoG software is available for dowload <a href="https://github.com/gralog/gralog" target="_blank">HERE</a>, and should be downloaded and
-extracted prior to following any instructions in this README.
 
-Plugin Installation and Usage Guide pdf contains some helpful information regarding this plugin.
+---
 
-For those who already use GrALoG and have a number of your own plugins installed, 
-the individual files relevant to this plugin are available in the above 
-"Ford-Fulkerson GrALoG Plugin" folder. 
-Please refer to the "Build" section below for instructions on how to introduce
-these files to your GrALoG workspace.
+### Installation Existing Users
 
-For those new to GrALoG, a precompiled "gralog-fx.jar" file is available for download.
-To install, download the "build" folder, and place it into the root of the GrALoG directory; 
-gralog-master\
+For those who already use GrALoG and have a number of your own plugins installed,
+the easiest path is to add the new plugin folder and upgrade various existing GrALoG Files:
 
-Navigate then to the gralog-fx.jar file in gralog-master\build\dist\
+#### Plugin Folder
 
-This can be run by double clicking it after downloading.
+Copy the plugin Installation-Existing-Users/gralog-max-flow folder to your GrALoG root folder, the folder should contain gradlew and gradlew.bat files.
+
+#### Upgrade Existing GrALoG files
+
+1. Copy Installation-Existing/settings.gradle and Installation-Existing-Users/build.gradle files to GrALoG root folder, (yourRootname)
+2. Copy Installation-Existing/config.xml to (yourRootname)\gralog-fx\src\main\java\gralog\gralogfx\
+3. Copy Installation-Existing/EdgeRenderer.java to (yourRootname)\gralog-core\src\main\java\gralog\rendering\
+4. Copy Installation-Existing/MainWindow.java to (yourRootname)\gralog-fx\src\main\java\gralog\gralogfx\
+5. Copy Installation-Existing/MaxFlowLegendPanel.java to (yourRootname)\gralog-fx\src\main\java\gralog\gralogfx\ (this is a new file)
+6. Copy Installation-Existing/PluginControlPanel.java to (yourRootname)\gralog-fx\src\main\java\gralog\gralogfx\panels\
+
+### Installation for New Users
+
+For those new to GrALoG, a precompiled "gralog-fx.jar" file is available for Linux, Windows and MacOS.
+
+You do not need to install GrALoG, simply copy the contents of the appropriate distribution folder for your OS, Installation-New/dist-{OS} to a suitable folder.
+
+1. Copy contents of Installation-New/dist-{OS} folder into a suitable location
+2. Navigate to the gralog-fx.jar file
+
+This can be run by double clicking.
 
 PLEASE NOTE:
 Java version JRE 11 is needed to run GrALoG.
-This is available for download <a href="https://adoptium.net/installation" target="_blank">HERE</a>
+This is available for download <a href="https://jdk.java.net/java-se-ri/11-MR3" target="_blank">HERE</a>
 
-If you are having trouble running GrALoG, ensure that you are running the correct version of GrALoG using
-`java --version`
+If you are having trouble running GrALoG, ensure that you are running version 11 of Java using `java --version`
 
 If you are on Linux and are struggling to run GrALoG, try running
 `java -jar gralog-fx.jar`
 
-
 All alterations to pre-existing GrALoG files are annotated with the phrase "MAXFLOW".
 
-
-## Your Build
------
-Files MaxFlow.java, MaxFlowFunctions.java and plugin.xml are all pre-organised and contained within
-the folder labelled gralog-max-flow. 
-This folder, in addition to the settings.gradle and build.gradle files, are to be inserted into the
-root of the GrALoG directory: 
-gralog-master\
-
-
-config.xml should replace the previous GrALoG file, located 
-gralog-master\gralog-fx\src\main\java\gralog\gralogfx\
-
-
-EdgeRenderer.java should overwrite the previous GrALoG file, located 
-gralog-master\gralog-core\src\main\java\gralog\rendering\
-
-
-MainWindow.java should overwrite its previous version, located 
-gralog-master\gralog-fx\src\main\java\gralog\gralogfx\
-
-MaxFlowLegendPanel.java should be introduced into the same location wherein PluginControlPanel.java should overwrite its previous version, at
-gralog-master\gralog-fx\src\main\java\gralog\gralogfx\panels\
-
+GrALoG software available <a href="https://github.com/gralog/gralog" target="_blank">HERE</a>.
