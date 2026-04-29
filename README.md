@@ -43,3 +43,8 @@ If you are on Linux and are struggling to run GrALoG, try running
 All alterations to pre-existing GrALoG files are annotated with the phrase "MAXFLOW".
 
 GrALoG software available <a href="https://github.com/gralog/gralog" target="_blank">HERE</a>.
+
+### Usage Guide
+
+The PDF "Plugin Installation and Usage Guide" contains some useful information regarding use of the plugin
+and general GrALoG software.
