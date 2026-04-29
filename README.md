@@ -9,7 +9,7 @@ the easiest path is to add the new plugin folder and upgrade various existing Gr
 
 #### Plugin Folder
 
-Copy the plugin Installation-Existing-Users/gralog-max-flow folder to your GrALoG root folder, the folder should contain gradlew and gradlew.bat files.
+Copy the Installation-Existing-Users/gralog-max-flow folder to your GrALoG root folder, the folder should contain gradlew and gradlew.bat files.
 
 #### Upgrade Existing GrALoG files
 
